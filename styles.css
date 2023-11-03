@@ -32,7 +32,7 @@ nav {
 }
 
 nav > button {
-    width: 90px;
+    width: 80px;
     height: 40px;
     background-color: var(--background);
     border: none;
@@ -52,14 +52,10 @@ section {
     padding: 0 25px 25px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 10px;
     background-color: var(--background);
     border-radius: 10px;
-}
-
-section:not(.gen1) {
-    display: none;
 }
 
 h2 {
